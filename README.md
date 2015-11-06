@@ -10,4 +10,4 @@ settings to show the correct client IP addresses in logs and to backend
 servers. Our security settings (`conf.d/security.conf`) are set according
 to [Mozilla's server security guide][server-security].
 
-[server-security: https://wiki.mozilla.org/Security/Server_Side_TLS
+[server-security]: https://wiki.mozilla.org/Security/Server_Side_TLS
