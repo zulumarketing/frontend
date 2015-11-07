@@ -1,4 +1,5 @@
 FROM gliderlabs/alpine:3.2
+MAINTAINER Carlos Killpack <carlos@infinite.ai>
 RUN apk --update add nginx \
     && mkdir -p /tmp/nginx/client-body /etc/nginx/sites-enabled \
     && rm -rf /var/cache/apk/* /var/www \
