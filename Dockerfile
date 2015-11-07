@@ -1,6 +1,6 @@
 FROM gliderlabs/alpine:3.2
 RUN apk --update add nginx \
-    && mkdir -p /tmp/nginx/client-body \
+    && mkdir -p /tmp/nginx/client-body /etc/nginx/sites-enabled \
     && rm -rf /var/cache/apk/* \
     && ln -sf /dev/stdout /var/log/nginx/access.log \
     && ln -sf /dev/stderr /var/log/nginx/error.log
