@@ -7,6 +7,5 @@ RUN apk --update add nginx \
     && ln -sf /dev/stdout /var/log/nginx/access.log \
     && ln -sf /dev/stderr /var/log/nginx/error.log
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY conf.d /etc/nginx/conf.d
 EXPOSE 80 443
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
