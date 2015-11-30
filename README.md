@@ -7,7 +7,7 @@ A tiny front-end server.
 Simply copy your configuration files and/or content into a new image based on `heropunch/frontend`:
 
 ```Dockerfile
-FROM heropunch/frontend
+FROM quay.io/heropunch/frontend
 COPY my-site.conf /etc/nginx/sites-enabled/default
 COPY htdocs /var/www
 ```
