@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/heropunch/frontend/status)](https://quay.io/repository/heropunch/frontend)
+
 ### heropunch/frontend
 
 A tiny front-end server.
