@@ -1,6 +1,6 @@
 FROM gliderlabs/alpine:3.2
 MAINTAINER Carlos Killpack <carlos@infinite.ai>
-RUN apk --update add nginx \
+RUN apk --update add nginx ca-certificates \
     && mkdir -p /tmp/nginx/client-body /etc/nginx/sites-enabled \
     && rm -rf /var/cache/apk/* /var/www \
     && mkdir /var/www \
